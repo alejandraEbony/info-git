@@ -1,0 +1,96 @@
+comando de Git
+git --version
+git help
+git help add
+git config --global user.name "Alejandra Rodriguez"
+git config --global user.email "jacfalcom@gmail.com"
+git config --global -e
+
+grabar cambios :wq!
+
+git init
+git status
+git add .
+
+97838654406
+
+para mí
+ 
+	
+
+remove git reset .
+git commit -m "Primer commit";
+
+git checkout -- . --Para devolver cambios anteirores]]
+
+Para quitar del Add
+git reset readme.md 
+
+Solo funciona cuando esta dando seguimiento
+git commit -am "README.ms update"
+
+git log
+Muestra el hash de los commit 
+
+git add *.html
+cuando estan dentro de un directorio git add js/*.html
+
+
+Cambiar la rama master por main
+
+git branch -m master main
+
+toma todo lo que se enuentra en la carperta
+git add css/
+
+-- informacion muy resumida
+
+git status --short
+
+ng build --pro
+
+crear alias 
+git config --global alias.s "status --short"
+editar un alias y guardar
+git config --global -e
+pulsar esc y digitar
+:wq
+
+--------------------------------------------------
+git diff
+Para saber que archivo fue los modificamos
+
+git diff --staged
+cuando fueron agregados con git add .
+
+git commit --amend -m "instalaciones actulizadas"
+para modifirar el mensaje
+
+git commit -am "mensaje nuevo"
+para gregar y hacer commit
+
+git reset --soft HEAD^ 
+resetar el ultimo commit
+
+Para ver todos los commit
+ git reflog
+-------------------------------------------------------------------
+27-12-2021
+
+Renombrar archivos en git
+git mv destruir-mundo.md salvar-mundo.md
+Luego hacer commit y agregar el cambios
+
+Eliminar archivos en git
+git rm salvar-mundo.md
+
+Para devolver cambios
+git reset --hard
+
+Nuevo Repositorio
+
+git remote add origin https://github.com/alejandraEbony/info-git.git
+git push -u origin main
+
+
+
